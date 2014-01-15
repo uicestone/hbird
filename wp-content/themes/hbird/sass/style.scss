@@ -1,3 +1,8 @@
+/*
+		Theme Name:HBird
+		Author:Du YiZhuo
+*/
+
 @import "compass/css3";
 @import "font";
 
@@ -133,7 +138,7 @@ h2 {
 	height: 520px;
 
 	.product-bg {
-		background: url("/img/product.png") 0 0 repeat;
+		background: url("img/product.png") 0 0 repeat;
 		background-position: center center !important;
 		@include background-size(cover);
 		margin: 0 auto;
@@ -150,7 +155,7 @@ h2 {
 	height: 520px;
 
 	.about-bg {
-		background: url("/img/about.png") 0 0 repeat;
+		background: url("img/about.png") 0 0 repeat;
 		height: 520px;
 		background-position: center center !important;
 		@include background-size(cover);
@@ -167,7 +172,7 @@ h2 {
 	height: 520px;
 
 	.news-bg {
-		background: url("/img/news.png") 0 0 repeat;
+		background: url("img/news.png") 0 0 repeat;
 		height: 520px;
 		background-position: center center !important;
 		@include background-size(cover);
@@ -184,7 +189,7 @@ h2 {
 	height: 520px;
 
 	.contact-bg {
-		background: url("/img/contact.png") 0 0 repeat;
+		background: url("img/contact.png") 0 0 repeat;
 		height: 520px;
 		background-position: center center !important;
 		@include background-size(cover);
