@@ -1,47 +1,4 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>蜂鸟——企业形象管理专家</title>
-	<link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/twitter-bootstrap/2.3.2/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/custom.css">
-</head>
-
-<body>
-	<div id="home">
-		<div class="home-bg"></div>
-		<div class="title">
-			<div class="intro-line"></div>
-			<h1>Hello</h1>
-			<h1 class="small">Welcome to HBird</h1>
-			<div class="intro-line"></div>
-			<p>
-				只做&emsp;抓人眼球的事&emsp;用视觉&emsp;思考&emsp;表达
-			</p>
-		</div>
-	</div>
-
-	<div class="navbar">
-		<div class="navbar-inner">
-			<ul class="nav">
-				<li class="divider-vertical"></li>
-				<li><a href="#home">HOME / 首页</a></li>
-				<li class="divider-vertical"></li>
-				<li><a href="#work">WORK / 案例</a></li>
-				<li class="divider-vertical"></li>
-				<li><a href="#product">PRODUCT / 产品</a></li>
-				<li class="divider-vertical"></li>
-				<li><a href="#about">US / 我们</a></li>
-				<li class="divider-vertical"></li>
-				<li><a href="#news">NEWS / 动态</a></li>
-				<li class="divider-vertical"></li>
-				<li><a href="#contact">CONTACT / 联系</a></li>
-				<li class="divider-vertical"></li>
-			</ul>
-		</div>
-	</div>
+<?php get_header(); ?>
 
 	<div class="bg" id="work">
 		<div class="container">
@@ -275,19 +232,4 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="http://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="http://cdn.staticfile.org/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fjvH5f1Gvj5xu24eapyfplh5"></script>
-
-	<script type="text/javascript">
-		var map = new BMap.Map("map");                        // 创建Map实例
-		map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);     // 初始化地图,设置中心点坐标和地图级别
-		map.addControl(new BMap.NavigationControl());               // 添加平移缩放控件
-		map.addControl(new BMap.ScaleControl());                    // 添加比例尺控件
-		map.addControl(new BMap.OverviewMapControl());              //添加缩略地图控件
-		map.enableScrollWheelZoom();                            //启用滚轮放大缩小
-		map.addControl(new BMap.MapTypeControl());          //添加地图类型控件
-		map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
-	</script>
-</body>
-</html>
+<?php get_footer(); ?>
