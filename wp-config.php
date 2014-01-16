@@ -18,10 +18,10 @@
 define('DB_NAME', 'hbird');
 
 /** MySQL数据库用户名 */
-define('DB_USER', 'root');
+define('DB_USER', 'hbird');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'UW76zCeBUwBKtdu3');
 
 /** MySQL主机 */
 define('DB_HOST', 'localhost');
