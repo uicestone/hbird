@@ -219,7 +219,7 @@
 			</h2>
 			<div class="row" id="map" style="height: 300px;"></div>
 			<div class="row contacts">
-				<div class="span3 offset1">
+				<div class="span4 offset1">
 					<h3>CONTACT <span>联系我们</span></h3>
 				</div>
 				<div class="span6 offset5">

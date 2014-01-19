@@ -4,17 +4,17 @@
 */
 @font-face {
   font-family: "Oswald";
-  src: url('fonts/HqHm7BVC_nzzTui2lzQTDT8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+  src: url('fonts/HqHm7BVC_nzzTui2lzQTDT8E0i7KZn-EPnyo3HZu7kw.woff') format('woff'), url('fonts/HqHm7BVC_nzzTui2lzQTDT8E0i7KZn-EPnyo3HZu7kw.eot') format('embedded-opentype');
   font-weight: 300; }
 
 @font-face {
   font-family: "Oswald";
-  src: url('fonts/-g5pDUSRgvxvOl5u-a_WHw.woff') format('woff');
+  src: url('fonts/-g5pDUSRgvxvOl5u-a_WHw.woff') format('woff'), url('fonts/-g5pDUSRgvxvOl5u-a_WHw.eot') format('embedded-opentype');
   font-weight: 400; }
 
 @font-face {
   font-family: "Oswald";
-  src: url('fonts/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+  src: url('fonts/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff'), url('fonts/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.eot') format('embedded-opentype');
   font-weight: 700; }
 
 /* line 23, sass/style.scss */
