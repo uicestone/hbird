@@ -54,38 +54,45 @@ h2 {
 	width: 100%;
 }
 
-
-.navbar {
+.nav-container {
+	text-align: center;
 	line-height: 10px;
-	position: relative;
-	z-index: 1000;
-	margin-bottom: 0;
+	@include box-shadow(rgba(0,0,0,0.065) 0 2px 4px);
 
-	.navbar-inner {
-		text-align: center;
-		border: none;
-		border-radius: 0;
-		@include background(white);
-		@include box-shadow(rgba(0,0,0,0.065) 0 2px 4px);
-
-		.nav {
-			margin: 0 auto;
-
-			.active {
-				a {
-					@include box-shadow(none);
-					background: none;
+	.navbar {
+		display: inline-block;
+		line-height: 10px;
+		position: relative;
+		z-index: 1000;
+		margin-bottom: 0;
+	
+		.navbar-inner {
+			text-align: center;
+			border: none;
+			border-radius: 0;
+			@include background(white);
+			@include box-shadow(none);
+	
+			.nav {
+				margin: 0 auto;
+	
+				.active {
+					a {
+						@include box-shadow(none);
+						background: none;
+					}
 				}
-			}
-
-			li {
-				float: none;
-				display:inline-block;
-				vertical-align: top;
+	
+				li {
+					float: none;
+					display:inline-block;
+					vertical-align: top;
+				}
 			}
 		}
 	}
 }
+
 
 #home {
 	width: 100%;
@@ -207,7 +214,7 @@ h2 {
 	z-index: 300;
 	padding-top: 20px;
 	padding-bottom: 80px;
-	@include box-shadow(rgba(0,0,0,0.9) 0 0 16px 0);
+	@include box-shadow(rgba(0,0,0,0.9) 0 19px 16px 0);
 
 	.container {
 		.title-light {

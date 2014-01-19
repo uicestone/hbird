@@ -21,23 +21,25 @@
 		</div>
 	</div>
 
-	<div class="navbar">
-		<div class="navbar-inner">
-			<ul class="nav">
-				<li class="divider-vertical"></li>
-				<li><a href="#home">HOME / 首页</a></li>
-				<li class="divider-vertical"></li>
-				<li><a href="#work">WORK / 案例</a></li>
-				<li class="divider-vertical"></li>
-				<li><a href="#product">PRODUCT / 产品</a></li>
-				<li class="divider-vertical"></li>
-				<li><a href="#about">US / 我们</a></li>
-				<li class="divider-vertical"></li>
-				<li><a href="#news">NEWS / 动态</a></li>
-				<li class="divider-vertical"></li>
-				<li><a href="#contact">CONTACT / 联系</a></li>
-				<li class="divider-vertical"></li>
-			</ul>
+	<div class="navbar nav-container">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<ul class="nav">
+					<li class="divider-vertical"></li>
+					<li><a href="#home">HOME / 首页</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="#work">WORK / 案例</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="#product">PRODUCT / 产品</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="#about">US / 我们</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="#news">NEWS / 动态</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="#contact">CONTACT / 联系</a></li>
+					<li class="divider-vertical"></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 
