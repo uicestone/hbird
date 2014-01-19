@@ -2,7 +2,7 @@
 	<script type="text/javascript" src="http://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="http://cdn.staticfile.org/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fjvH5f1Gvj5xu24eapyfplh5"></script>
-	<script type="text/javascript" src="./js/jquery.smooth-scroll.js"></script>
+	<script type="text/javascript" src="<?=get_template_directory_uri()?>/js/jquery.smooth-scroll.js"></script>
 
 	<!-- 创建地图 -->
 	<script type="text/javascript">
