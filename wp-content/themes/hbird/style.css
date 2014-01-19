@@ -50,45 +50,53 @@ h2 {
 #header {
   width: 100%; }
 
-/* line 58, sass/style.scss */
-.navbar {
+/* line 57, sass/style.scss */
+.nav-container {
+  text-align: center;
   line-height: 10px;
-  position: relative;
-  z-index: 1000;
-  margin-bottom: 0; }
-  /* line 64, sass/style.scss */
-  .navbar .navbar-inner {
-    text-align: center;
-    border: none;
-    border-radius: 0;
-    background: white;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.065) 0 2px 4px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.065) 0 2px 4px;
-    box-shadow: rgba(0, 0, 0, 0.065) 0 2px 4px; }
-    /* line 71, sass/style.scss */
-    .navbar .navbar-inner .nav {
-      margin: 0 auto; }
-      /* line 75, sass/style.scss */
-      .navbar .navbar-inner .nav .active a {
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-        background: none; }
-      /* line 81, sass/style.scss */
-      .navbar .navbar-inner .nav li {
-        float: none;
-        display: inline-block;
-        vertical-align: top; }
+  -webkit-box-shadow: rgba(0, 0, 0, 0.065) 0 2px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.065) 0 2px 4px;
+  box-shadow: rgba(0, 0, 0, 0.065) 0 2px 4px; }
+  /* line 62, sass/style.scss */
+  .nav-container .navbar {
+    display: inline-block;
+    line-height: 10px;
+    position: relative;
+    z-index: 1000;
+    margin-bottom: 0; }
+    /* line 69, sass/style.scss */
+    .nav-container .navbar .navbar-inner {
+      text-align: center;
+      border: none;
+      border-radius: 0;
+      background: white;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+      /* line 76, sass/style.scss */
+      .nav-container .navbar .navbar-inner .nav {
+        margin: 0 auto; }
+        /* line 80, sass/style.scss */
+        .nav-container .navbar .navbar-inner .nav .active a {
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+          background: none; }
+        /* line 86, sass/style.scss */
+        .nav-container .navbar .navbar-inner .nav li {
+          float: none;
+          display: inline-block;
+          vertical-align: top; }
 
-/* line 90, sass/style.scss */
+/* line 97, sass/style.scss */
 #home {
   width: 100%;
   height: 520px;
   text-align: center; }
-  /* line 95, sass/style.scss */
+  /* line 102, sass/style.scss */
   #home h1 {
     color: #FFF; }
-  /* line 99, sass/style.scss */
+  /* line 106, sass/style.scss */
   #home .home-bg {
     background-color: #272d2d;
     background-position: center center !important;
@@ -102,21 +110,21 @@ h2 {
     z-index: 100;
     width: 100%;
     height: 520px; }
-  /* line 111, sass/style.scss */
+  /* line 118, sass/style.scss */
   #home .title {
     position: relative;
     width: 100%;
     text-align: center;
     z-index: 300;
     padding-top: 70px; }
-    /* line 118, sass/style.scss */
+    /* line 125, sass/style.scss */
     #home .title .intro-line {
       position: relative;
       z-index: 150;
       border-top: 1px solid #ededed;
       width: 670px;
       margin: 0 auto 50px auto; }
-    /* line 126, sass/style.scss */
+    /* line 133, sass/style.scss */
     #home .title p {
       font-size: 24px;
       line-height: 30px;
@@ -124,11 +132,11 @@ h2 {
       position: relative;
       z-index: 150; }
 
-/* line 136, sass/style.scss */
+/* line 143, sass/style.scss */
 #product-cover {
   width: 100%;
   height: 520px; }
-  /* line 140, sass/style.scss */
+  /* line 147, sass/style.scss */
   #product-cover .product-bg {
     background: url("img/product.png") 0 0 repeat;
     background-position: center center !important;
@@ -143,11 +151,11 @@ h2 {
     width: 100%;
     height: 520px; }
 
-/* line 153, sass/style.scss */
+/* line 160, sass/style.scss */
 #about-cover {
   width: 100%;
   height: 520px; }
-  /* line 157, sass/style.scss */
+  /* line 164, sass/style.scss */
   #about-cover .about-bg {
     background: url("img/about.png") 0 0 repeat;
     height: 520px;
@@ -162,11 +170,11 @@ h2 {
     z-index: 100;
     width: 100%; }
 
-/* line 170, sass/style.scss */
+/* line 177, sass/style.scss */
 #news-cover {
   width: 100%;
   height: 520px; }
-  /* line 174, sass/style.scss */
+  /* line 181, sass/style.scss */
   #news-cover .news-bg {
     background: url("img/news.png") 0 0 repeat;
     height: 520px;
@@ -181,11 +189,11 @@ h2 {
     z-index: 100;
     width: 100%; }
 
-/* line 187, sass/style.scss */
+/* line 194, sass/style.scss */
 #contact-cover {
   width: 100%;
   height: 520px; }
-  /* line 191, sass/style.scss */
+  /* line 198, sass/style.scss */
   #contact-cover .contact-bg {
     background: url("img/contact.png") 0 0 repeat;
     height: 520px;
@@ -200,65 +208,65 @@ h2 {
     z-index: 100;
     width: 100%; }
 
-/* line 204, sass/style.scss */
+/* line 211, sass/style.scss */
 .bg {
   position: relative;
   background-color: #FFF;
   z-index: 300;
   padding-top: 20px;
   padding-bottom: 80px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0 0 16px 0;
-  -moz-box-shadow: rgba(0, 0, 0, 0.9) 0 0 16px 0;
-  box-shadow: rgba(0, 0, 0, 0.9) 0 0 16px 0; }
-  /* line 213, sass/style.scss */
+  -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0 19px 16px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.9) 0 19px 16px 0;
+  box-shadow: rgba(0, 0, 0, 0.9) 0 19px 16px 0; }
+  /* line 220, sass/style.scss */
   .bg .container .title-light {
     text-align: center;
     margin-top: 90px; }
-    /* line 216, sass/style.scss */
+    /* line 223, sass/style.scss */
     .bg .container .title-light span {
       border-top: 1px solid #aeaeae;
       border-bottom: 1px solid #aeaeae; }
-      /* line 218, sass/style.scss */
+      /* line 225, sass/style.scss */
       .bg .container .title-light span small {
         font-size: 0.4em; }
-  /* line 224, sass/style.scss */
+  /* line 231, sass/style.scss */
   .bg .container .title-dark {
     text-align: center;
     color: white;
     margin-top: 90px; }
-    /* line 228, sass/style.scss */
+    /* line 235, sass/style.scss */
     .bg .container .title-dark span {
       border-top: 1px solid white;
       border-bottom: 1px solid white; }
-      /* line 230, sass/style.scss */
+      /* line 237, sass/style.scss */
       .bg .container .title-dark span small {
         font-size: 0.4em;
         color: white; }
-  /* line 237, sass/style.scss */
+  /* line 244, sass/style.scss */
   .bg .container .row {
     margin-top: 90px; }
-    /* line 239, sass/style.scss */
+    /* line 246, sass/style.scss */
     .bg .container .row p {
       -ms-word-break: break-all;
       word-break: break-all;
       word-break: break-word; }
-  /* line 245, sass/style.scss */
+  /* line 252, sass/style.scss */
   .bg .container .nav-tabs {
     border-bottom: 1px solid #d3d3d3;
     padding-bottom: 0.5em; }
-    /* line 250, sass/style.scss */
+    /* line 257, sass/style.scss */
     .bg .container .nav-tabs .active a {
       border: none;
       background: #4b4b4b;
       color: #fff;
       padding: 2px 5px; }
-      /* line 256, sass/style.scss */
+      /* line 263, sass/style.scss */
       .bg .container .nav-tabs .active a:hover {
         border: none; }
-    /* line 262, sass/style.scss */
+    /* line 269, sass/style.scss */
     .bg .container .nav-tabs li {
       margin-right: 10px; }
-      /* line 264, sass/style.scss */
+      /* line 271, sass/style.scss */
       .bg .container .nav-tabs li a {
         font-family: 'Source Sans Pro', sans-serif;
         padding: 2px 5px;
@@ -266,35 +274,35 @@ h2 {
         border-radius: 0;
         color: #565656; }
 
-/* line 278, sass/style.scss */
+/* line 285, sass/style.scss */
 #product {
   background-color: #292f2f;
   color: white; }
-  /* line 282, sass/style.scss */
+  /* line 289, sass/style.scss */
   #product h5 {
     text-align: center; }
 
-/* line 288, sass/style.scss */
+/* line 295, sass/style.scss */
 #about .about-small-title {
   text-align: center;
   color: #434343;
   margin-top: 50px;
   margin-bottom: 50px; }
-  /* line 294, sass/style.scss */
+  /* line 301, sass/style.scss */
   #about .about-small-title .about-small-title-zh {
     background-color: #434343;
     color: white;
     font-size: 0.8em; }
-/* line 301, sass/style.scss */
+/* line 308, sass/style.scss */
 #about .about-small-content-title {
   text-align: center;
   color: #c0c2c4;
   margin-top: 35px; }
-/* line 307, sass/style.scss */
+/* line 314, sass/style.scss */
 #about .about-small-content {
   text-align: center;
   color: #434343; }
-/* line 312, sass/style.scss */
+/* line 319, sass/style.scss */
 #about .about-button {
   padding: 5px 0;
   width: 70%;
@@ -305,7 +313,7 @@ h2 {
   display: block;
   background-color: #939598;
   color: white; }
-/* line 323, sass/style.scss */
+/* line 330, sass/style.scss */
 #about .about-button-hot {
   padding: 5px 0;
   width: 70%;
@@ -317,11 +325,11 @@ h2 {
   background-color: #ee1c24;
   color: white; }
 
-/* line 336, sass/style.scss */
+/* line 343, sass/style.scss */
 #news {
   background-color: #292f2f;
   color: white; }
-  /* line 340, sass/style.scss */
+  /* line 347, sass/style.scss */
   #news .news-button {
     padding: 6px 0;
     width: 70%;
@@ -333,19 +341,19 @@ h2 {
     background-color: #939598;
     color: white; }
 
-/* line 354, sass/style.scss */
+/* line 361, sass/style.scss */
 #contact #map {
   margin: auto;
   width: 70%; }
-/* line 359, sass/style.scss */
+/* line 366, sass/style.scss */
 #contact .contacts {
   color: #58585a;
   text-align: center;
   margin-left: 10px;
   margin-top: 10px; }
-  /* line 365, sass/style.scss */
+  /* line 372, sass/style.scss */
   #contact .contacts .span6 {
     text-align: left; }
-    /* line 368, sass/style.scss */
+    /* line 375, sass/style.scss */
     #contact .contacts .span6 span {
       color: #00aeef; }
