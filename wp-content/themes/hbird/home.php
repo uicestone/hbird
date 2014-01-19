@@ -8,12 +8,12 @@
 			<div class="row">
 				<div class="span6">
 					<p>
-						asldkfjskdalfjalsdkfjl,  asdjflkasdjflaskdfj,  , lkasdjflsadf,  jdlasfkjals, fkjalddjfls, dfjdlasfkjalsfkja, lddjflsadfjd, lasfkjalsfkja, lddjf, lsadfjdl, asfkja, lsfkjalddjflsadfjdlasfkj, alsfkjaldd, jflsadfjdlasf, kjalsfkjalddjflsadfjdlasfkjalsfkja, lddjflsadfjdlasfkjalsfkjalddjflsadfjdlasfkjalsfkjald, 
+						<?=category_description(get_category_by_slug('work')->term_id);?>
 					</p>
 				</div>
 				<div class="span6">
 					<p>
-						我们为我们的每一个案例自豪。对每一个项目，无论类型、大小，我们都倾注全部的精力；一路探索，一路成长；感谢伙伴们，知遇理解；感谢同路人，扶持相随；5年的心路历程，有阳光、有汗水，但总充满欢笑，我们收获满满。尊重、信赖、精彩、感动……
+						<?=category_description(get_category_by_slug('work')->term_id);?>
 					</p>
 				</div>
 			</div>
@@ -29,13 +29,13 @@
 				<div class="tab-pane fade active in" id="a">
 					<div class="row">
 						<div class="span4">
-							<a href="#"><img src="#"></a>
+							<a href="#"><img src="http://a.ikafan.com/attachment/forum/201305/19/104022kxemy7w2xnizy8xz.jpg.thumb.jpg"></a>
 						</div>
 						<div class="span4">
-							<a href="#"><img src="#"></a>
+							<a href="#"><img src="http://a.ikafan.com/attachment/forum/201305/19/104022kxemy7w2xnizy8xz.jpg.thumb.jpg"></a>
 						</div>
 						<div class="span4">
-							<a href="#"><img src="#"></a>
+							<a href="#"><img src="http://a.ikafan.com/attachment/forum/201305/19/104022kxemy7w2xnizy8xz.jpg.thumb.jpg"></a>
 						</div>
 					</div>
 				</div>
@@ -43,13 +43,13 @@
 				<div class="tab-pane fade" id="b">
 					<div class="row">
 						<div class="span4">
-							<a href="#"><img src="#"></a>
+							<a href="#"><img src="http://a.ikafan.com/attachment/forum/201305/19/104022kxemy7w2xnizy8xz.jpg.thumb.jpg"></a>
 						</div>
 						<div class="span4">
-							<a href="#"><img src="#"></a>
+							<a href="#"><img src="http://a.ikafan.com/attachment/forum/201305/19/104022kxemy7w2xnizy8xz.jpg.thumb.jpg"></a>
 						</div>
 						<div class="span4">
-							<a href="#"><img src="#"></a>
+							<a href="#"><img src="http://a.ikafan.com/attachment/forum/201305/19/104022kxemy7w2xnizy8xz.jpg.thumb.jpg"></a>
 						</div>
 					</div>
 				</div>
@@ -57,7 +57,7 @@
 				<div class="tab-pane fade" id="c">
 					<div class="row">
 						<div class="span4">
-							<a href="#"><img src="#"></a>
+							<a href="#"><img src="http://a.ikafan.com/attachment/forum/201305/19/104022kxemy7w2xnizy8xz.jpg.thumb.jpg"></a>
 						</div>
 					</div>
 				</div>
@@ -77,12 +77,12 @@
 			<div class="row">
 				<div class="span6">
 					<p>
-						asldkfjskdalfjalsdkfjl,  asdjflkasdjflaskdfj,  , lkasdjflsadf,  jdlasfkjals, fkjalddjfls, dfjdlasfkjalsfkja, lddjflsadfjd, lasfkjalsfkja, lddjf, lsadfjdl, asfkja, lsfkjalddjflsadfjdlasfkj, alsfkjaldd, jflsadfjdlasf, kjalsfkjalddjflsadfjdlasfkjalsfkja, lddjflsadfjdlasfkjalsfkjalddjflsadfjdlasfkjalsfkjald, 
+						<?=category_description(get_category_by_slug('product')->term_id);?>
 					</p>
 				</div>
 				<div class="span6">
 					<p>
-						laksdjglasdkjglsadkjgelqw;kgjewq;gkjqwe;ogijewqog;jqero;bijeor;igjewqgijqwe[iotqwejtgwqejgkl;bndfa;leqng;qwejgoiqwegjweqoigjk]
+						<?=category_description(get_category_by_slug('product')->term_id);?>
 					</p>
 				</div>
 			</div>
@@ -131,12 +131,12 @@
 			<div class="row">
 				<div class="span6">
 					<p>
-						asldkfjskdalfjalsdkfjl,  asdjflkasdjflaskdfj,  , lkasdjflsadf,  jdlasfkjals, fkjalddjfls, dfjdlasfkjalsfkja, lddjflsadfjd, lasfkjalsfkja, lddjf, lsadfjdl, asfkja, lsfkjalddjflsadfjdlasfkj, alsfkjaldd, jflsadfjdlasf, kjalsfkjalddjflsadfjdlasfkjalsfkja, lddjflsadfjdlasfkjalsfkjalddjflsadfjdlasfkjalsfkjald, 
+						<?=category_description(get_category_by_slug('about')->term_id);?>
 					</p>
 				</div>
 				<div class="span6">
 					<p>
-						laksdjglasdkjglsadkjgelqw;kgjewq;gkjqwe;ogijewqog;jqero;bijeor;igjewqgijqwe[iotqwejtgwqejgkl;bndfa;leqng;qwejgoiqwegjweqoigjk]
+						<?=category_description(get_category_by_slug('about')->term_id);?>
 					</p>
 				</div>
 			</div>
