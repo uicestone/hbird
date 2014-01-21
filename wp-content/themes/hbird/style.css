@@ -360,3 +360,10 @@ h2 {
     /* line 375, sass/style.scss */
     #contact .contacts .span6 span {
       color: #00aeef; }
+
+/* line 382, sass/style.scss */
+footer {
+  text-align: center; }
+  /* line 385, sass/style.scss */
+  footer img {
+    display: inline-block; }

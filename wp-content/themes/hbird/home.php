@@ -231,5 +231,9 @@
 			</div>
 		</div>
 	</div>
+	
+	<footer>
+		<img src="img/hbird-foot.png">
+	</footer>
 
 <?php get_footer(); ?>
