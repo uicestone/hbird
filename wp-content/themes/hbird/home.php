@@ -145,7 +145,10 @@
 				CONCEPT
 				<span class="about-small-title-zh">理念</span>
 			</h4>
-			<img src="">
+			
+			<div class="row pic-center">
+				<img src="img/hbird-about.png">
+			</div>
 
 			<h4 class="about-small-title">
 				COMPANIONS
@@ -231,7 +234,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<footer>
 		<img src="img/hbird-foot.png">
 	</footer>

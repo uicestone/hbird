@@ -125,8 +125,8 @@ h2 {
 		.intro-line {
 			position: relative;
 			z-index: 150;
-			border-top: 1px solid #ededed;
-			width: 670px;
+			border-top: 1px solid #7b7e80;
+			width: 45%;
 			margin: 0 auto 50px auto;
 		}
 
@@ -292,6 +292,14 @@ h2 {
 }
 
 #about {
+	.pic-center {
+		text-align: center;
+
+		img {
+			display: inline-block;
+		}
+	}
+	
 	.about-small-title {
 		text-align: center;
 		color: #434343;

@@ -124,8 +124,8 @@ h2 {
     #home .title .intro-line {
       position: relative;
       z-index: 150;
-      border-top: 1px solid #ededed;
-      width: 670px;
+      border-top: 1px solid #7b7e80;
+      width: 45%;
       margin: 0 auto 50px auto; }
     /* line 133, sass/style.scss */
     #home .title p {
@@ -286,26 +286,32 @@ h2 {
     text-align: center; }
 
 /* line 295, sass/style.scss */
+#about .pic-center {
+  text-align: center; }
+  /* line 298, sass/style.scss */
+  #about .pic-center img {
+    display: inline-block; }
+/* line 303, sass/style.scss */
 #about .about-small-title {
   text-align: center;
   color: #434343;
   margin-top: 50px;
   margin-bottom: 50px; }
-  /* line 301, sass/style.scss */
+  /* line 309, sass/style.scss */
   #about .about-small-title .about-small-title-zh {
     background-color: #434343;
     color: white;
     font-size: 0.8em; }
-/* line 308, sass/style.scss */
+/* line 316, sass/style.scss */
 #about .about-small-content-title {
   text-align: center;
   color: #c0c2c4;
   margin-top: 35px; }
-/* line 314, sass/style.scss */
+/* line 322, sass/style.scss */
 #about .about-small-content {
   text-align: center;
   color: #434343; }
-/* line 319, sass/style.scss */
+/* line 327, sass/style.scss */
 #about .about-button {
   padding: 5px 0;
   width: 70%;
@@ -316,7 +322,7 @@ h2 {
   display: block;
   background-color: #939598;
   color: white; }
-/* line 330, sass/style.scss */
+/* line 338, sass/style.scss */
 #about .about-button-hot {
   padding: 5px 0;
   width: 70%;
@@ -328,11 +334,11 @@ h2 {
   background-color: #ee1c24;
   color: white; }
 
-/* line 343, sass/style.scss */
+/* line 351, sass/style.scss */
 #news {
   background-color: #292f2f;
   color: white; }
-  /* line 347, sass/style.scss */
+  /* line 355, sass/style.scss */
   #news .news-button {
     padding: 6px 0;
     width: 70%;
@@ -344,26 +350,26 @@ h2 {
     background-color: #939598;
     color: white; }
 
-/* line 361, sass/style.scss */
+/* line 369, sass/style.scss */
 #contact #map {
   margin: auto;
   width: 70%; }
-/* line 366, sass/style.scss */
+/* line 374, sass/style.scss */
 #contact .contacts {
   color: #58585a;
   text-align: center;
   margin-left: 10px;
   margin-top: 10px; }
-  /* line 372, sass/style.scss */
+  /* line 380, sass/style.scss */
   #contact .contacts .span6 {
     text-align: left; }
-    /* line 375, sass/style.scss */
+    /* line 383, sass/style.scss */
     #contact .contacts .span6 span {
       color: #00aeef; }
 
-/* line 382, sass/style.scss */
+/* line 390, sass/style.scss */
 footer {
   text-align: center; }
-  /* line 385, sass/style.scss */
+  /* line 393, sass/style.scss */
   footer img {
     display: inline-block; }
