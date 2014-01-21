@@ -200,10 +200,10 @@
 			</h2>
 
 			<div class="row">
-				<a class="news-button" href="#">历届蜂鸟杯</a>
-				<a class="news-button" href="#">员工生日会</a>
-				<a class="news-button" href="#">快乐工作</a>
-				<a class="news-button" href="#">五周年庆祝</a>
+				<a class="news-button" href="#">晶利广告官方网站www.hbird.com.cn全新上线</a>
+				<a class="news-button" href="#">2014年晶利广告铁人三项赛全面打响</a>
+				<a class="news-button" href="#">晶利广告承办“专题类网络视频聊天节目技术趋势与发展未来”顺利召开</a>
+				<a class="news-button" href="#">晶利广告五周年系列庆祝活动首站苏州行成功启程</a>
 			</div>
 		</div>
 	</div>
