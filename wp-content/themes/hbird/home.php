@@ -147,7 +147,7 @@
 			</h4>
 			
 			<div class="row pic-center">
-				<img src="img/hbird-about.png">
+				<img src="<?=get_template_directory_uri()?>/img/hbird-about.png">
 			</div>
 
 			<h4 class="about-small-title">
@@ -236,7 +236,7 @@
 	</div>
 
 	<footer>
-		<img src="img/hbird-foot.png">
+		<img src="<?=get_template_directory_uri()?>/img/hbird-foot.png">
 	</footer>
 
 <?php get_footer(); ?>
