@@ -350,26 +350,31 @@ h2 {
     background-color: #939598;
     color: white; }
 
-/* line 369, sass/style.scss */
-#contact #map {
-  margin: auto;
-  width: 70%; }
-/* line 374, sass/style.scss */
-#contact .contacts {
-  color: #58585a;
-  text-align: center;
-  margin-left: 10px;
-  margin-top: 10px; }
-  /* line 380, sass/style.scss */
-  #contact .contacts .span6 {
-    text-align: left; }
-    /* line 383, sass/style.scss */
-    #contact .contacts .span6 span {
-      color: #00aeef; }
+/* line 368, sass/style.scss */
+#contact {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+  /* line 371, sass/style.scss */
+  #contact #map {
+    margin: auto;
+    width: 70%; }
+  /* line 376, sass/style.scss */
+  #contact .contacts {
+    color: #58585a;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px; }
+    /* line 382, sass/style.scss */
+    #contact .contacts .span6 {
+      text-align: left; }
+      /* line 385, sass/style.scss */
+      #contact .contacts .span6 span {
+        color: #00aeef; }
 
-/* line 390, sass/style.scss */
+/* line 392, sass/style.scss */
 footer {
   text-align: center; }
-  /* line 393, sass/style.scss */
+  /* line 395, sass/style.scss */
   footer img {
     display: inline-block; }
