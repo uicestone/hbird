@@ -221,11 +221,11 @@
 				<span>CONTACT<small>	联系我们</small></span>
 			</h2>
 			<div class="row" id="map" style="height: 300px;"></div>
-			<div class="row contacts">
-				<div class="span4 offset1">
+			<div class="row-fluid contacts">
+				<div class="span4">
 					<h3>CONTACT <span>联系我们</span></h3>
 				</div>
-				<div class="span6 offset5">
+				<div class="span6">
 					<p>上海晶利广告设计有限公司 Shanghai Jingli AD. Design Co., LTD</p>
 					<p><span>Add: </span>上海市瞿西路1236号（空间的表情）综合楼211/206室</p>
 					<p><span>Tel: </span>86-21 53083527</p>

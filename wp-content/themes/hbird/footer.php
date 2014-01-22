@@ -16,10 +16,6 @@
 		map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
 	</script>
 
-	<!-- 开启滚动效果 -->
-	<script type="text/javascript">
-		$('.navbar a').smoothScroll();
-	</script>
 	
 	<?php wp_footer(); ?>
 </body>

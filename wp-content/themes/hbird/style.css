@@ -363,18 +363,23 @@ h2 {
   #contact .contacts {
     color: #58585a;
     text-align: center;
-    margin-left: 10px;
-    margin-top: 10px; }
+    margin: 10px auto;
+    width: 70%; }
     /* line 382, sass/style.scss */
+    #contact .contacts .span4 {
+      margin-left: -30px; }
+    /* line 386, sass/style.scss */
     #contact .contacts .span6 {
+      margin-top: 25px;
+      margin-left: 50px;
       text-align: left; }
-      /* line 385, sass/style.scss */
+      /* line 391, sass/style.scss */
       #contact .contacts .span6 span {
         color: #00aeef; }
 
-/* line 392, sass/style.scss */
+/* line 398, sass/style.scss */
 footer {
   text-align: center; }
-  /* line 395, sass/style.scss */
+  /* line 401, sass/style.scss */
   footer img {
     display: inline-block; }
