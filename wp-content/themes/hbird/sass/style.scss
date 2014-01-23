@@ -292,18 +292,10 @@ h2 {
 }
 
 #about {
-	.pic-center {
-		text-align: center;
-
-		img {
-			display: inline-block;
-		}
-	}
-
 	.about-small-title {
 		text-align: center;
 		color: #434343;
-		margin-top: 50px;
+		margin-top: 70px;
 		margin-bottom: 50px;
 
 		.about-small-title-zh {
@@ -392,6 +384,15 @@ h2 {
 				color: #00aeef;
 			}
 		}
+	}
+}
+
+
+.pic-center {
+	text-align: center;
+
+	img {
+		display: inline-block;
 	}
 }
 

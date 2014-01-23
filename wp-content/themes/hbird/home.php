@@ -161,16 +161,8 @@
 			<h4 class="about-small-content-title">我们有控制</h4>
 			<p class="about-small-content">严把成本质量关 令客户省心免除后顾之忧</p>
 
-			<div class="row">
-				<a class="span1" href="#"><img src=""></a>
-				<a class="span1" href="#"><img src=""></a>
-				<a class="span1" href="#"><img src=""></a>
-				<a class="span1" href="#"><img src=""></a>
-				<a class="span1" href="#"><img src=""></a>
-				<a class="span1" href="#"><img src=""></a>
-				<a class="span1" href="#"><img src=""></a>
-				<a class="span1" href="#"><img src=""></a>
-				<a class="span1" href="#"><img src=""></a>
+			<div class="row pic-center">
+				<img src="<?=get_template_directory_uri()?>/img/companions.png">
 			</div>
 
 			<h4 class="about-small-title">

@@ -286,32 +286,26 @@ h2 {
     text-align: center; }
 
 /* line 295, sass/style.scss */
-#about .pic-center {
-  text-align: center; }
-  /* line 298, sass/style.scss */
-  #about .pic-center img {
-    display: inline-block; }
-/* line 303, sass/style.scss */
 #about .about-small-title {
   text-align: center;
   color: #434343;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 50px; }
-  /* line 309, sass/style.scss */
+  /* line 301, sass/style.scss */
   #about .about-small-title .about-small-title-zh {
     background-color: #434343;
     color: white;
     font-size: 0.8em; }
-/* line 316, sass/style.scss */
+/* line 308, sass/style.scss */
 #about .about-small-content-title {
   text-align: center;
   color: #c0c2c4;
   margin-top: 35px; }
-/* line 322, sass/style.scss */
+/* line 314, sass/style.scss */
 #about .about-small-content {
   text-align: center;
   color: #434343; }
-/* line 327, sass/style.scss */
+/* line 319, sass/style.scss */
 #about .about-button {
   padding: 5px 0;
   width: 70%;
@@ -322,7 +316,7 @@ h2 {
   display: block;
   background-color: #939598;
   color: white; }
-/* line 338, sass/style.scss */
+/* line 330, sass/style.scss */
 #about .about-button-hot {
   padding: 5px 0;
   width: 70%;
@@ -334,11 +328,11 @@ h2 {
   background-color: #ee1c24;
   color: white; }
 
-/* line 351, sass/style.scss */
+/* line 343, sass/style.scss */
 #news {
   background-color: #292f2f;
   color: white; }
-  /* line 355, sass/style.scss */
+  /* line 347, sass/style.scss */
   #news .news-button {
     padding: 6px 0;
     width: 70%;
@@ -350,36 +344,43 @@ h2 {
     background-color: #939598;
     color: white; }
 
-/* line 368, sass/style.scss */
+/* line 360, sass/style.scss */
 #contact {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; }
-  /* line 371, sass/style.scss */
+  /* line 363, sass/style.scss */
   #contact #map {
     margin: auto;
     width: 70%; }
-  /* line 376, sass/style.scss */
+  /* line 368, sass/style.scss */
   #contact .contacts {
     color: #58585a;
     text-align: center;
     margin: 10px auto;
     width: 70%; }
-    /* line 382, sass/style.scss */
+    /* line 374, sass/style.scss */
     #contact .contacts .span4 {
       margin-left: -30px; }
-    /* line 386, sass/style.scss */
+    /* line 378, sass/style.scss */
     #contact .contacts .span6 {
       margin-top: 25px;
       margin-left: 50px;
       text-align: left; }
-      /* line 391, sass/style.scss */
+      /* line 383, sass/style.scss */
       #contact .contacts .span6 span {
         color: #00aeef; }
 
-/* line 398, sass/style.scss */
+/* line 391, sass/style.scss */
+.pic-center {
+  text-align: center; }
+  /* line 394, sass/style.scss */
+  .pic-center img {
+    display: inline-block; }
+
+/* line 399, sass/style.scss */
 footer {
   text-align: center; }
-  /* line 401, sass/style.scss */
+  /* line 402, sass/style.scss */
   footer img {
     display: inline-block; }
