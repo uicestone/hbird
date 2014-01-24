@@ -21,7 +21,7 @@
 		</div>
 	</div>
 
-	<div class="navbar nav-container">
+	<div class="nav-container">
 		<div class="navbar">
 			<div class="navbar-inner">
 				<?php wp_nav_menu(array('menu'=>'主导航','menu_class'=>'nav','container'=>false,'link_after'=>'<li class="divider-vertical"></li>')); ?>
