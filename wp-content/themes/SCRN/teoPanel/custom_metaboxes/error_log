@@ -1,0 +1,4 @@
+[29-Aug-2013 04:44:55 Europe/Bucharest] PHP Fatal error:  Call to undefined function add_filter() in /home/teo/public_html/wp/wp-content/themes/SCRN/teoPanel/custom_metaboxes/meta_boxes.php on line 11
+[29-Aug-2013 04:45:04 Europe/Bucharest] PHP Fatal error:  Call to undefined function apply_filters() in /home/teo/public_html/wp/wp-content/themes/SCRN/teoPanel/custom_metaboxes/init.php on line 38
+[29-Aug-2013 04:47:14 Europe/Bucharest] PHP Fatal error:  Call to undefined function apply_filters() in /home/teo/public_html/wp/wp-content/themes/SCRN/teoPanel/custom_metaboxes/init.php on line 38
+[29-Aug-2013 04:47:27 Europe/Bucharest] PHP Fatal error:  Call to undefined function add_filter() in /home/teo/public_html/wp/wp-content/themes/SCRN/teoPanel/custom_metaboxes/meta_boxes.php on line 11

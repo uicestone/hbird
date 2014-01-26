@@ -1,0 +1,3 @@
+[29-Aug-2013 04:50:55 Europe/Bucharest] PHP Fatal error:  Call to undefined function trailingslashit() in /home/teo/public_html/wp/wp-content/themes/SCRN/teoPanel/options/options.php on line 5
+[29-Aug-2013 05:03:02 Europe/Bucharest] PHP Fatal error:  Call to undefined function trailingslashit() in /home/teo/public_html/wp/wp-content/themes/SCRN/teoPanel/options/options.php on line 5
+[29-Aug-2013 05:05:01 Europe/Bucharest] PHP Fatal error:  Call to undefined function trailingslashit() in /home/teo/public_html/wp/wp-content/themes/SCRN/teoPanel/options/options.php on line 5
