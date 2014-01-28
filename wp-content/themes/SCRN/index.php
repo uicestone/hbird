@@ -157,7 +157,7 @@ get_header(); ?>
             <p class="separator"><?php if($slogantext != '') echo $slogantext;?></p>
         </div>
     <?php $i++; endwhile; wp_reset_postdata(); ?>
-
+<?php /**
     <div id="contact" class="dark-bg">
         <div class="container">
         
@@ -235,7 +235,7 @@ get_header(); ?>
         </div> <!-- end container -->
         
     </div> <!-- end contact -->
-
+*/ ?>
     
     
 <?php get_footer();?>

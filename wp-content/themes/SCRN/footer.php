@@ -1,12 +1,12 @@
-    <div id="footer">
+<!--    <div id="footer">
         <div class="container">
             <div class="sixteen columns">
                 <div class="copyright">
-                    <p>&copy; <?php the_time("Y");?> <?php _e('All Rights Reserved', 'SCRN');?>, <?php _e('designed by ', 'SCRN');?> <a title="WordPress Themes" href="http://teothemes.com">TeoThemes</a></p>
+			<?php /**<p>&copy; <?php the_time("Y");?> <?php _e('All Rights Reserved', 'SCRN');?>, <?php _e('designed by ', 'SCRN');?> <a title="WordPress Themes" href="http://teothemes.com">TeoThemes</a></p> */ ?>
                 </div>
             </div>  
         </div>
-    </div>          
+    </div>          -->
           
 <!-- JS
     ================================================== -->
