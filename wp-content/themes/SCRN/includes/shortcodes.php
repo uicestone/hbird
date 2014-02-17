@@ -1150,7 +1150,7 @@ function vp_service($atts, $content = null) {
 			$class = 'class="one-third column serv-list"';
 			break;
 	}
-	$text = esc_attr($text);
+	//$text = esc_attr($text); We don't escape text, cause there may be line seperators.
 	$image = esc_attr($image);
 	$title = esc_attr($title);
 	$output = '<div ' . $class . '>';
