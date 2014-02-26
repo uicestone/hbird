@@ -631,8 +631,7 @@ function vp_filterable_portfolio($atts, $content=null) {
 	$categories = str_replace(' ', '', $categories);
 	$output .= '<div class="filter-categories sixteen columns">
 				<div class="filter">
-					<ul>
-						<li><a href="" data-filter="*" class="selected">All</a></li>';
+					<ul>';//<li><a href="" data-filter="*" class="selected">All</a></li>'; Disable "ALL" filter
 	if($categories == '')
 	{
 		$cats = get_categories();
@@ -645,7 +644,9 @@ function vp_filterable_portfolio($atts, $content=null) {
 		$cats = explode(",", $categories);
 		foreach($cats as $cat) {
 			$cat_details = get_category($cat);
-			$output .= '<li><a href="" data-filter=".' . $cat . '">' . $cat_details->name . '</a></li>';
+			//make the first list item selected
+			$output .= '<li><a href="" data-filter=".' . $cat . '"'.($cat === reset($cats) ? ' class="selected"' : '').'>' . $cat_details->name . '</a></li>';
+			//$output .= '<li><a href="" data-filter=".' . $cat . '>' . $cat_details->name . '</a></li>';
 		}
 	}
 
@@ -655,6 +656,8 @@ function vp_filterable_portfolio($atts, $content=null) {
 	<div class="clear"></div>';
 	$output .= '<div class="portfolio_details"></div>';
 	$categories = trim($categories);
+	//retrieve the first category as the default one
+	$default_cat = reset(explode(",", $categories));
 	$number = (int)$number;
 	$output .= '
 	<div class="filterable_portfolio">';
@@ -755,8 +758,10 @@ function vp_filterable_portfolio($atts, $content=null) {
 			 	 // options
 			  	itemSelector : ".item",
 			});
-
-			jQuery(".filterable-' . $id . ' .filterable_portfolio").isotope({ filter: "*" });
+			
+			//filter to the default cat
+			jQuery(".filterable-' . $id . ' .filterable_portfolio").isotope({ filter: ".'.$default_cat.'" });
+			//jQuery(".filterable-' . $id . ' .filterable_portfolio").isotope({ filter: "*" });
 
 			//filtering
 			jQuery(".filterable-' . $id . ' .filter-categories a").click(function(){
@@ -776,6 +781,7 @@ function vp_filterable_portfolio($atts, $content=null) {
 			        jQuery("html,body").animate({scrollTop:scrollTarget-80}, 1000, "swing");
 				});
 			});
+			
 		});
 	</script>';
 	$output .= '<div class="clear"></div>';
