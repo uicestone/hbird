@@ -59,6 +59,9 @@
                className: 'mobile-menu',
                subMenuDash: '&ndash;'
           });
+          
+          //uicestone: .jpg portfolios should fill container's size, while .png ones are scaled down
+          jQuery('#work .filterable_portfolio .scale-with-grid[src$=".jpg"]').css('max-width', '100%').css('max-height', '100%');
 
     });
     
