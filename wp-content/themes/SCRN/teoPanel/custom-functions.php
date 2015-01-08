@@ -67,62 +67,62 @@ if(! function_exists('vp_customization'))
 		$loaded[] = 'Source+Sans+Pro';
 		if(!in_array($scrn['body_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['body_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['body_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
+//			echo '<link id="' . $scrn['body_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['body_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
 			$loaded[] = $scrn['body_font'];
 		}
 
 		if(isset($scrn['top_headertext_font']) && !in_array($scrn['top_headertext_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['top_headertext_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['top_headertext_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
+//			echo '<link id="' . $scrn['top_headertext_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['top_headertext_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
 			$loaded[] = $scrn['top_headertext_font'];
 		}
 
 		if(isset($scrn['top_smalltext_font']) && !in_array($scrn['top_smalltext_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['top_smalltext_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['top_smalltext_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
+//			echo '<link id="' . $scrn['top_smalltext_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['top_smalltext_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
 			$loaded[] = $scrn['top_smalltext_font'];
 		}
 
 		if(isset($scrn['top_smallertext_font']) && !in_array($scrn['top_smallertext_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['top_smallertext_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['top_smallertext_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
+//			echo '<link id="' . $scrn['top_smallertext_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['top_smallertext_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
 			$loaded[] = $scrn['top_smallertext_font'];
 		}
 
 		if(isset($scrn['nav_font']) && !in_array($scrn['nav_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['nav_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['nav_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;	
+//			echo '<link id="' . $scrn['nav_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['nav_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;	
 			$loaded[] = $scrn['nav_font'];
 		}
 
 		if(isset($scrn['pagetitle_font']) && !in_array($scrn['pagetitle_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['pagetitle_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['pagetitle_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
+//			echo '<link id="' . $scrn['pagetitle_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['pagetitle_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
 			$loaded[] = $scrn['pagetitle_font'];
 		}	
 		if(isset($scrn['subheader_font']) && !in_array($scrn['subheader_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['subheader_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['subheader_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
+//			echo '<link id="' . $scrn['subheader_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['subheader_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
 			$loaded[] = $scrn['subheader_font'];
 		}	
 		if(isset($scrn['h3_font']) && !in_array($scrn['h3_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['h3_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['h3_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
+//			echo '<link id="' . $scrn['h3_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['h3_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
 			$loaded[] = $scrn['h3_font'];
 		}
 		if(isset($scrn['h4_font']) && !in_array($scrn['h4_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['h4_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['h4_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
+//			echo '<link id="' . $scrn['h4_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['h4_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
 			$loaded[] = $scrn['h4_font'];
 		}
 		if(isset($scrn['separator_font']) && !in_array($scrn['separator_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['separator_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['separator_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
+//			echo '<link id="' . $scrn['separator_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['separator_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
 			$loaded[] = $scrn['separator_font'];
 		}
 		if(isset($scrn['footer_font']) && !in_array($scrn['footer_font'], $loaded))
 		{
-			echo '<link id="' . $scrn['footer_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['footer_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
+//			echo '<link id="' . $scrn['footer_font'] . '" href="http://fonts.googleapis.com/css?family=' . $scrn['footer_font'] . '" rel="stylesheet" type="text/css" />' . PHP_EOL;
 			$loaded[] = $scrn['footer_font'];
 		}
 
