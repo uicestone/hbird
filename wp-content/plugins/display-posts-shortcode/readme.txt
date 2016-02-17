@@ -3,8 +3,8 @@ Contributors: billerickson
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MQKRBRFVRUV8C
 Tags: shortcode, pages, posts, page, query, display, list
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 2.3
+Tested up to: 4.3
+Stable tag: 2.5.1
 
 Display a listing of posts using the [display-posts] shortcode
 
@@ -16,7 +16,9 @@ Add the shortcode in a post or page, and use the arguments to query based on tag
 
 See the [WordPress Codex](http://codex.wordpress.org/Class_Reference/WP_Query) for information on using the arguments.
 
-[Documentation](https://github.com/billerickson/display-posts-shortcode/wiki) | [Support Forum](https://github.com/billerickson/display-posts-shortcode/issues)
+[Documentation](https://github.com/billerickson/display-posts-shortcode/wiki)
+
+**No support will be provided by the developer**
 
 == Installation ==
 
@@ -27,7 +29,27 @@ See the [WordPress Codex](http://codex.wordpress.org/Class_Reference/WP_Query) f
 
 == Changelog ==
 
+**Version 2.5.1**
+
+* Fix an issue with manually specified excerpts
+
+**Version 2.5**
+
+* Add support for date queries
+* Exclude child pages with post_parent="0"
+* Query by current taxonomy terms. Ex: [display-posts taxonomy="category" tax_term="current"]
+* Display the post's categories with [display-posts category_display="true"]
+* Many more fixes. See GitHub for a full list of changes.
+
+**Version 2.4**
+
+* Add 'include_author' parameter
+* Add 'exclude_current' parameter for excluding the current post from the results
+* If you display the full content of results, additional uses of the shortcode within those posts are now turned off
+* Other minor improvements
+
 **Version 2.3**
+
 * Include the shortcode attributes on wrapper filter
 * Add 'no_posts_message' parameter to specify content displayed if no posts found
 * Add filters to the title and permalink

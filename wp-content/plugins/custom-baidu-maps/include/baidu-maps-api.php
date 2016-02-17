@@ -86,7 +86,12 @@ class Baidu_Maps_API {
 							$meta_icon = $marker[$prefix . 'icon' . '-' . $marker_count];
 							$meta_bgcolor = $marker[$prefix . 'bgcolor' . '-' . $marker_count];
 							$meta_fgcolor = $marker[$prefix . 'fgcolor' . '-' . $marker_count];
-							$meta_isopen = $marker[$prefix . 'isopen' . '-' . $marker_count];
+
+							if (isset($marker[$prefix . 'isopen' . '-' . $marker_count])) {
+								$meta_isopen = $marker[$prefix . 'isopen' . '-' . $marker_count];
+							}else{
+								$meta_isopen = false;
+							}
 
 							if(($meta_lat == '' || !is_numeric($meta_lat))
 									&& ($meta_lng == '' || !is_numeric($meta_lng))) continue;

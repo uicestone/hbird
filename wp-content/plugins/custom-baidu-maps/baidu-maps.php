@@ -1,14 +1,14 @@
 <?php
 /*
-Plugin Name: Custom Baidu Maps
+Plugin Name: Baidu Maps Plugin
 Plugin URI: http://www.digitalcreative.asia/
-Description: A Wordpress Plugin to easily integrate baidu maps
-Version: 1.0
+Description: A Wordpress Plugin to easily integrate Baidu maps
+Version: 1.4
 Author: Digital Creative
 Author URI: http://www.digitalcreative.asia/
 License:
 
-  Copyright 2013 Samuel Jesse (samueljesse@digitalcreative.asia)
+  Copyright 2015 Samuel Jesse (samueljesse@digitalcreative.asia)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as
@@ -51,7 +51,7 @@ class Baidu_Maps {
 		$this->settings = get_option( 'baidu_maps_settings' );
 
 		// Set the plugin url
-		$this->plugin_url = WP_PLUGIN_URL . '/' . plugin_basename( __DIR__ ) . '/';
+		$this->plugin_url = WP_PLUGIN_URL . DIRECTORY_SEPARATOR . plugin_basename( __DIR__ ) . DIRECTORY_SEPARATOR;
 
 		load_plugin_textdomain( 'baidu-maps', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
 
@@ -100,11 +100,11 @@ class Baidu_Maps {
 
 
 		// Enqueue Plugin's Frontend Styles
-		wp_register_style( 'baidu-maps-style-admin', $this->plugin_url . 'css/map.css' );
-		wp_enqueue_style( 'baidu-maps-style-admin' );
+		wp_register_style( 'baidu-maps-style-frontend', $this->plugin_url . 'assets/css/frontend.css' );
+		wp_enqueue_style( 'baidu-maps-style-frontend' );
 
 		// Enqueue Plugin's Frontend Script
-		wp_register_script( 'baidu-maps-script-map', $this->plugin_url . 'js/map.js', array( 'jquery' ), false, true );
+		wp_register_script( 'baidu-maps-script-map', $this->plugin_url . 'assets/js/map.js', array( 'jquery' ), false, true );
 		wp_enqueue_script( 'baidu-maps-script-map' );
 	}
 
@@ -112,25 +112,28 @@ class Baidu_Maps {
 	 * Registers and enqueues admin-specific JavaScript.
 	 */
 	public function register_admin_scripts() {
+
 		// Enqueue Baidu Maps Script
-		wp_register_script( 'baidu-maps-script-api', 'http://api.map.baidu.com/api?v=2.0&ak=' . $this->settings['api_key'], false, true );
-		wp_enqueue_script( 'baidu-maps-script-api' );
+		if ( get_post_type( ) == 'bmap' ) {
+			wp_register_script( 'baidu-maps-script-api', 'http://api.map.baidu.com/api?v=2.0&ak=' . $this->settings['api_key'], false, true );
+			wp_enqueue_script( 'baidu-maps-script-api' );
 
-		wp_register_style( 'baidu-maps-style-admin', $this->plugin_url . 'css/admin.css' );
-		wp_enqueue_style( 'baidu-maps-style-admin' );
+			wp_register_style( 'baidu-maps-style-admin', $this->plugin_url . 'assets/css/admin.css' );
+			wp_enqueue_style( 'baidu-maps-style-admin' );
 
-		wp_register_script( 'baidu-maps-script-admin', $this->plugin_url . 'js/admin.js', array( 'jquery', 'wp-color-picker' ), false, true );
-		wp_enqueue_script( 'baidu-maps-script-admin' );
+			wp_register_script( 'baidu-maps-script-admin', $this->plugin_url . 'assets/js/admin.js', array( 'jquery', 'wp-color-picker' ), false, true );
+			wp_enqueue_script( 'baidu-maps-script-admin' );
 
-		wp_localize_script( 'baidu-maps-script-admin', 'pluginUrl', $this->plugin_url );
-		wp_localize_script( 'baidu-maps-script-admin', 'ajaxurl', admin_url( 'admin-ajax.php' ) );
+			wp_localize_script( 'baidu-maps-script-admin', 'pluginUrl', $this->plugin_url );
+			wp_localize_script( 'baidu-maps-script-admin', 'ajaxurl', admin_url( 'admin-ajax.php' ) );
 
-		wp_enqueue_script( 'thickbox' );
-		wp_enqueue_style( 'thickbox' );
+			wp_enqueue_script( 'thickbox' );
+			wp_enqueue_style( 'thickbox' );
 
-		wp_enqueue_script( 'media-upload' );
+			wp_enqueue_script( 'media-upload' );
 
-		wp_enqueue_style( 'wp-color-picker' );
+			wp_enqueue_style( 'wp-color-picker' );
+		}
 	}
 
 	/**
@@ -179,7 +182,7 @@ class Baidu_Maps {
 	 */
 	public function makeMapWithID( $id ) {
 		$baidu_maps_api = new Baidu_Maps_API();
-		$map_element    = $baidu_maps_api->createMapWithID( $id, $zoom, $lat, $lng );
+		$map_element    = $baidu_maps_api->createMapWithID( $id );
 
 		return $map_element;
 	}
@@ -194,6 +197,14 @@ class Baidu_Maps {
 
 				echo implode( "\n", $notice );
 			}
+		}
+
+
+		if ( isset( $_GET['settings-updated'] ) && $_GET['page'] === 'baidu-maps-admin' ) {
+			$notice[] = "<div class='updated notice notice-success'>";
+			$notice[] = "<p>" . __( "Settings have been updated", 'baidu-maps' ) . "</p> </div>";
+
+			echo implode( "\n", $notice );
 		}
 	}
 
